@@ -1,3 +1,13 @@
+import numpy as np
+import pandas as pd 
+from pyDOE import *     # for Latin Hypercue Design
+import random
+import scipy
+from scipy import stats
+import GPy
+import sklearn
+from sklearn import gaussian_process
+
 #### DETTE & PEPELYSHEV (2010) CURVED FUNCTION (3d)
 def detpep10curv(x):
   x1 = x[:, 0]
